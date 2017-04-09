@@ -4,3 +4,197 @@
 12:35:43.785 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
 12:35:43.786 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
 12:35:43.786 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:09:19.721 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:09:19.721 Initializing concepts cache with 0 concepts
+14:09:19.722 Watching directory: /Users/atmaramn/Projects/samples/gauge/google/specs
+14:09:19.722 Found 1 files
+14:09:19.722 Initializing specs cache with 1 specs
+14:09:19.722 Adding specs from /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:09:19.722 Initializing steps cache with 3 steps
+14:09:20.757 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:09:20.757 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/atmaramn/.gauge/plugins/java/0.5.0/libs" > 
+14:09:20.929 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:09:20.932 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:09:20.937 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:09:20.937 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:09:20.937 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:09:20.937 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:09:21.032 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:09:21.033 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/atmaramn/.gauge/plugins/java/0.5.0/libs" > 
+14:09:21.055 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:09:21.055 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/atmaramn/.gauge/plugins/java/0.5.0/libs" > 
+14:09:39.974 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." hasInlineTable:false > 
+14:09:39.974 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+14:09:40.170 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:09:40.170 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:09:40.191 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." hasInlineTable:false > 
+14:09:40.192 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:09:40.194 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:09:40.195 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:09:40.199 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+14:09:40.199 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:09:40.200 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:09:40.200 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:11:00.726 Spec file added / modified: /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:11:10.606 Spec file added / modified: /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:11:12.637 Spec file added / modified: /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:11:12.640 Spec file removed: /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:11:12.640 Spec file added / modified: /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:11:14.887 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.887 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.888 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.888 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.889 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.889 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.892 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.892 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.899 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.899 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.899 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.899 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.900 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.900 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.900 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.900 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.902 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.902 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.905 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.906 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:14.906 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:14.906 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:15.526 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:15.526 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:15.527 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:15.527 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:15.529 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+14:11:15.529 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+14:11:15.552 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:15.552 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:15.553 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:15.553 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.078 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.078 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+14:11:16.078 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.078 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.264 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.264 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:16.264 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.264 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.567 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvi" hasInlineTable:false > 
+14:11:16.567 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvi" parameterizedStepValue:"NAvi" > > 
+14:11:16.605 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.605 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+14:11:16.606 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.606 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.702 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.702 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:16.702 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.702 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.847 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.847 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:11:16.848 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.848 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:16.994 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:16.995 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:16.995 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:16.995 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:17.383 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:17.383 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:17.383 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:17.383 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:17.565 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:17.565 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:17.566 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:17.566 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:17.966 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to" hasInlineTable:false > 
+14:11:17.966 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to" parameterizedStepValue:"NAvigate to" > > 
+14:11:18.096 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:18.096 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:11:18.096 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:18.097 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:18.344 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:18.344 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:18.345 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:18.345 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:18.470 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:18.470 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:11:18.470 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:18.470 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:18.576 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:18.576 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:18.576 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:18.576 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:18.743 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:18.743 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:18.744 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:18.744 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:19.050 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to googl" hasInlineTable:false > 
+14:11:19.051 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to googl" parameterizedStepValue:"NAvigate to googl" > > 
+14:11:19.051 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to googl" hasInlineTable:false > 
+14:11:19.051 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to googl" parameterizedStepValue:"NAvigate to googl" > > 
+14:11:19.064 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:19.064 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:19.064 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:19.064 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:19.366 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to google" hasInlineTable:false > 
+14:11:19.369 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to google" parameterizedStepValue:"NAvigate to google" > > 
+14:11:19.371 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to google" hasInlineTable:false > 
+14:11:19.371 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to google" parameterizedStepValue:"NAvigate to google" > > 
+14:11:19.372 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to google" hasInlineTable:false > 
+14:11:19.372 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to google" parameterizedStepValue:"NAvigate to google" > > 
+14:11:19.373 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"NAvigate to google" hasInlineTable:false > 
+14:11:19.373 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"NAvigate to google" parameterizedStepValue:"NAvigate to google" > > 
+14:11:22.167 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+14:11:22.167 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:11:22.167 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+14:11:22.167 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+14:11:22.471 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:11:22.471 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:21:40.281 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:21:40.283 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:21:40.286 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:21:40.286 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:21:40.287 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:21:40.287 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:21:40.287 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:21:40.287 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:22:27.063 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:22:27.064 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:22:27.067 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:22:27.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:22:27.068 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:22:27.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:22:27.068 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:22:27.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:23:13.836 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:23:13.837 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:23:13.840 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:23:13.840 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:23:13.841 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:23:13.841 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:23:13.841 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:23:13.841 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:24:04.886 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:24:04.886 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:24:04.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:24:04.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:24:04.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:24:04.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:24:04.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:24:04.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:24:59.890 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:24:59.890 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:24:59.894 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:24:59.894 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:24:59.895 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:24:59.895 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:24:59.895 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:24:59.895 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 

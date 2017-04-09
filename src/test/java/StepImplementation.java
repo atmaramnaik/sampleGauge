@@ -44,4 +44,9 @@ public class StepImplementation {
         }
         return count;
     }
+
+    @Step("Navigate to google")
+    public void navigateToGoogle(){
+        GoogleHomePage.navigate();
+    }
 }

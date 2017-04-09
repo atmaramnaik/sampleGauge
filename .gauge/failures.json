@@ -1,4 +1,6 @@
 {
-	"Flags": {},
+	"Flags": {
+		"-simple-console": "true"
+	},
 	"FailedItems": []
 }
