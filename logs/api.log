@@ -198,3 +198,25 @@
 14:24:59.895 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
 14:24:59.895 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
 14:24:59.895 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:33:13.060 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:33:13.061 Watching directory: /Users/atmaramn/Projects/samples/gauge/google/specs
+14:33:13.061 Found 1 files
+14:33:13.061 Initializing concepts cache with 0 concepts
+14:33:13.061 Initializing specs cache with 1 specs
+14:33:13.061 Adding specs from /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:33:13.061 Initializing steps cache with 4 steps
+14:35:42.464 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:35:42.464 Watching directory: /Users/atmaramn/Projects/samples/gauge/google/specs
+14:35:42.464 Found 1 files
+14:35:42.464 Initializing concepts cache with 0 concepts
+14:35:42.465 Initializing specs cache with 1 specs
+14:35:42.465 Adding specs from /Users/atmaramn/Projects/samples/gauge/google/specs/example.spec
+14:35:42.465 Initializing steps cache with 4 steps
+14:40:35.975 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:40:35.975 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:40:35.978 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:40:35.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:40:35.978 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to google" hasInlineTable:false > 
+14:40:35.979 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to google" parameterizedStepValue:"Navigate to google" > > 
+14:40:35.979 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:40:35.979 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 

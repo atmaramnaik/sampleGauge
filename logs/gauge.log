@@ -230,3 +230,34 @@ Total time taken: 2.638s
 14:25:06.281 
 Total time taken: 6.142s
 14:25:06.281 Updates are available. Run gauge --check-updates for more info.
+14:33:13.198 Got a kill message. Killing runner.
+14:35:42.585 Got a kill message. Killing runner.
+14:40:33.985 Checking updates...
+14:40:37.354 # Specification Heading
+14:40:37.354 ## Vowel counts in single word
+14:40:37.355 * Vowels in English language are "aeiou".
+
+14:40:37.361 * The word "gauge" has "3" vowels.
+
+14:40:37.364 ## Vowel counts in multiple word
+14:40:37.365 * Vowels in English language are "aeiou".
+
+14:40:37.366 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+14:40:37.367 ## Google Navigate
+14:40:37.368 * Vowels in English language are "aeiou".
+
+14:40:37.368 * Navigate to google
+14:40:40.674 Plugin [Html Report] with pid [12732] has exited
+14:40:40.674 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:40:40.674 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+14:40:40.674 
+Total time taken: 4.551s
+14:40:40.674 Updates are available. Run gauge --check-updates for more info.
