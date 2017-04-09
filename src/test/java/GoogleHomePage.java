@@ -1,5 +1,3 @@
-package com.test;
-
 /**
  * Created by atmaramn on 4/9/17.
  */

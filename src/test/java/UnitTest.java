@@ -1,13 +1,12 @@
-package com.test;
+import org.junit.Test;
 
 /**
  * Created by atmaramn on 4/9/17.
  */
-public class Main {
-    public static void main(String [] args)
-    {
+public class UnitTest {
+    @Test
+    public void test1(){
         GoogleHomePage.navigate();
         GoogleHomePage.exit();
-
     }
 }
