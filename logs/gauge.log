@@ -1,0 +1,25 @@
+12:35:43.221 Checking updates...
+12:35:43.864 # Specification Heading
+12:35:43.865 ## Vowel counts in single word
+12:35:43.866 * Vowels in English language are "aeiou".
+
+12:35:43.876 * The word "gauge" has "3" vowels.
+
+12:35:43.879 ## Vowel counts in multiple word
+12:35:43.880 * Vowels in English language are "aeiou".
+
+12:35:43.881 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+12:35:45.113 Plugin [Html Report] with pid [3155] has exited
+12:35:45.215 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:35:45.216 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+12:35:45.216 
+Total time taken: 61ms
+12:35:45.216 Updates are available. Run gauge --check-updates for more info.
