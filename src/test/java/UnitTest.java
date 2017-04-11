@@ -6,6 +6,7 @@ import org.junit.Test;
 public class UnitTest {
     @Test
     public void test1(){
+        System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium-browser/chromedriver");
         GoogleHomePage.navigate();
         GoogleHomePage.exit();
     }
