@@ -25,7 +25,7 @@ public class Driver {
     private static WebDriver getDriver() {
         DesiredCapabilities dc = DesiredCapabilities.chrome();
         try {
-            return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+            return new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),dc);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
