@@ -1,6 +1,11 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Driver {
     // Holds the WebDriver instance
@@ -18,8 +23,14 @@ public class Driver {
     }
 
     private static WebDriver getDriver() {
-        ChromeOptions options=new ChromeOptions();
-        options.addArguments("start-maximized");
-        return new ChromeDriver(options);
+        DesiredCapabilities dc = DesiredCapabilities.chrome();
+        try {
+            return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        return null;
+
     }
 }
