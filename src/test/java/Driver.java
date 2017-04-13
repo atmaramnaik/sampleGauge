@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -23,13 +24,21 @@ public class Driver {
     }
 
     private static WebDriver getDriver() {
-        DesiredCapabilities dc = DesiredCapabilities.chrome();
-        try {
-            return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dc);
+        switch (System.getenv("BROWSER")){
+            case "CHROME":
+                return new ChromeDriver();
+            case "FF":
+                return new FirefoxDriver();
+            default:
+                DesiredCapabilities dc = DesiredCapabilities.chrome();
+                try {
+                    return new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),dc);
 
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
         }
+
         return null;
 
     }
